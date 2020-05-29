@@ -1,5 +1,7 @@
 <?php
 
+// Contributed by brian! (https://whmcs.community/profile/210329-brian/)
+
 function admin_custom_css_hook($vars) 
 {
 	$currenttemplate = $vars['template'];
