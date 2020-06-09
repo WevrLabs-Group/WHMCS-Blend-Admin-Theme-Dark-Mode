@@ -387,7 +387,7 @@ table td {
 table tr:hover td {
     background: #2b2b2b !important;
     border-color: #424242 !important;
-    border-bottom: 1px solid #424242 !important;
+    /*border-bottom: 1px solid #424242 !important;*/
 }
 
 
@@ -409,7 +409,7 @@ table td[style="background-color:#ffebeb"] {
 .tab-pane table tr:hover td {
     background: #2b2b2b !important;
     border-color: #424242 !important;
-    border-bottom: none !important;
+    /*border-bottom: none !important;*/
 }
 
 
