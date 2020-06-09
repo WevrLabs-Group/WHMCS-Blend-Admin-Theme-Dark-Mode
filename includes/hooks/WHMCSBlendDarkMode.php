@@ -7,9 +7,9 @@ function admin_custom_css_hook($vars)
 	$currenttemplate = $vars['template'];
 	if ($currenttemplate == "blend" ) {
 		$head_return = '';
-		$head_return = '<link href="templates/blend/css/admin-dark.css" rel="stylesheet" type="text/css" />
+		$head_return = '<link href="/assets/css/admin-dark.css" rel="stylesheet" type="text/css" />
 		
-		<script type="text/javascript">
+		<script type="text/javascript">		
 		$(document).ready(function() {
 			$(\'.header .logo img\').attr(\'src\', \'/assets/img/logo-dark.gif\');
 		})
