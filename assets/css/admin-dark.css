@@ -351,6 +351,16 @@ div.admin-tabs .context-btn-container, div.client-tabs .context-btn-container {
 }
 
 
+
+div#mergefields td {
+    color: #9393a0 !important;
+}
+div#mergefields a:hover {
+    text-decoration: underline !important;
+}
+
+
+
 .footerbar {
     background-color: #000000 !important;
     color: #828282 !important;
