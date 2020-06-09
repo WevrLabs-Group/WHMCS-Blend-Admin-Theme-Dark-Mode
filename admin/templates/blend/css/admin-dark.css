@@ -1,22 +1,16 @@
 /***************************************************************************
 // *                                                                       *
-// * Blend Dark Mode                                                       *
-// * This file adds dark mode to the Blend admin theme,                    *
+// * Blend Dark Mode (v2.0)                                                *
+// * This file adds dark mode to the Blend admin theme                     *
 // * Tested on WHMCS Version: 7.9.2 (7.9.2-release.1)                      *
-// * Contributed by: WevrLabs Hosting                                      *
 // * Feel free to use and modify as you wish                               *
 // *                                                                       *
 // *************************************************************************
 // *                                                                       *
+// * Contributed by: WevrLabs Hosting                                      *
 // * Email: hello@wevrlabs.net                                             *
 // * Website: https://wevrlabs.net                                         *
 // *                                                                       *
-// *************************************************************************
-// *                                                                       *
-// * Before using, make sure to backup your original theme folder "blend"  *
-// * Add this file (admin-dark.css) to the "css" folder inside blend folder *
-// * Replace (header.tpl) from the ZIP file with the one inside blend folder *
-// *
 // *************************************************************************/
 
 
@@ -154,6 +148,22 @@ ul.admin-tabs>li>a:hover, ul.client-tabs>li>a:hover {
 }
 .navigation ul li ul li a, .navigation ul li ul li:hover ul li a, .navigation ul li:hover ul li a {
     color: #949494 !important;
+}
+
+
+.navbar-default {
+    background-color: #232323 !important;
+    border-color: #3c3c3c !important;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    background-color: #383838 !important;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    background-color: #383838 !important;
+    border-color: #4e4e4e !important;
+}
+.nav-tabs>li>a:hover {
+    border-color: #4e4e4e #4e4e4e #2f2f2f #4e4e4e!important;
 }
 
 
@@ -321,6 +331,26 @@ div.admin-tabs .context-btn-container, div.client-tabs .context-btn-container {
 
 
 
+.module-queue-header {
+    padding: 10px;
+    font-weight: 700;
+    border-top: 1px solid #353535 !important;
+    border-bottom: 1px solid #353535 !important;
+}
+.module-queue .entry {
+    background-color: #232323 !important;
+    border-bottom: 1px solid #353535 !important;
+}
+
+.bordered {
+    background-color: #232323 !important;
+    border-color: #3a3a3a !important;
+}
+.bordered:hover {
+    background: #000000 !important;
+}
+
+
 .footerbar {
     background-color: #000000 !important;
     color: #828282 !important;
@@ -357,6 +387,7 @@ table td {
 table tr:hover td {
     background: #2b2b2b !important;
     border-color: #424242 !important;
+    border-bottom: 1px solid #424242 !important;
 }
 
 
@@ -369,6 +400,18 @@ table.form {
 tr.rowhighlight > td {
     background: #3a331e !important;
 }
+
+table td[style="background-color:#ffebeb"] {
+    background: #562525 !important;
+}
+
+
+.tab-pane table tr:hover td {
+    background: #2b2b2b !important;
+    border-color: #424242 !important;
+    border-bottom: none !important;
+}
+
 
 /*=============================================================*/
 
@@ -393,6 +436,11 @@ tr.rowhighlight > td {
     background-color: #6e8e9e !important;
     border-color: #6e8e9e !important;
 }
+.alert-danger {
+    color: #afafaf !important;
+    background-color: #8c4d4d !important;
+    border-color: #651a1a !important;
+}
 
 
 td.status[data-filter-value="Pending"] {
@@ -408,6 +456,24 @@ td.status[data-filter-value="Terminated"] {
     color: #b13737 !important;
 }
 
+
+a[style="color:#cc0000;"], a[style="color:#cc0000"] {
+    color: #883333 !important;
+}
+
+a[style="color: #006633;"], a[style="color: #006633"], a[style="color:#006633"] {
+    color: #006633 !important;
+}
+
+
+
+.bootstrap-switch .bootstrap-switch-label {
+    background: #505050 !important;
+}
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-default, .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-default {
+    color: #000 !important;
+    background: #737373 !important;
+}
 
 /*=============================================================*/
 
@@ -550,6 +616,13 @@ div[aria-label="A chart."] text {
     border-color: #272d22 !important;
 }
 
+div#ticketreplies img {
+    opacity: 1 !important;
+}
+.lb-container img {
+    opacity: 1 !important;
+}
+
 .postedon {
     border-bottom: 1px solid #272727 !important;
 }
@@ -659,12 +732,38 @@ polygon {
 }
 
 
+.panel-market-item .logo {
+    background-color: #313131 !important;
+    border-radius: 10px !important;
+}
+.panel-market-item {
+    border-color: #383838 !important;
+    background-color: #1f1f1f !important;
+}
+.tour-marketconnect {
+    background-color: #2e3c22 !important;
+}
+.tour-marketconnect .popover-title {
+    padding-top: 10px !important;
+    background-color: #3c502d !important;
+}
+.popover-content {
+    color: #8a8a8a !important;
+}
+.popover.right>.arrow:after {
+    border-right-color: #2e3c23 !important;
+}
+.popover[class*=tour-] .popover-navigation [data-role=end], .popover[class*=tour-] .popover-navigation [data-role=next], .popover[class*=tour-] .popover-navigation [data-role=prev] {
+    background: #192312 !important;
+}
+
+
 /*=============================================================*/
 
 
 /*===================================================|
 |----------------------------------------------------|
-                    Dash Cards                       |
+                    Dash Top Cards                   |
 |----------------------------------------------------|
 ====================================================*/
 
