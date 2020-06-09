@@ -439,6 +439,13 @@ table td[style="background-color:#ffebeb"] {
 .label-info {
     background: #2c849e !important;
 }
+.label-warning {
+    background-color: #a2722d !important;
+}
+.label-default {
+    background: #565656 !important;
+    color: #ddd !important;
+}
 
 
 .alert-info {
@@ -687,12 +694,12 @@ div#ticketreplies img {
     display: block !important;
     float: none !important;
 }
-.to-do-items label {
-    display: block;
-    margin: 5px 0;
-}
+/*.to-do-items label {*/
+/*    display: block;*/
+/*    margin: 5px 0;*/
+/*}*/
 .to-do-items i {
-    display: none !important;
+    /*display: none !important;*/
 }
 
 
