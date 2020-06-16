@@ -423,6 +423,23 @@ table td[style="background-color:#ffebeb"] {
 }
 
 
+
+
+.invoicetooltip {
+    border: 1px solid #505050 !important;
+    background-color: #505050 !important;
+    padding: 5px !important;
+    border-radius: 7px !important;
+}
+.invoicetooltip tr td {
+    color: #989770 !important;
+    border: 1px solid #3c3c3c !important;
+    padding: 3px 10px !important;
+    background: #23272b !important;
+}
+
+
+
 /*=============================================================*/
 
 
