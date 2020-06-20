@@ -1,6 +1,6 @@
 /***************************************************************************
 // *                                                                       *
-// * Blend Dark Mode (v2.0)                                                *
+// * Blend Dark Mode (v2.1)                                                *
 // * This file adds dark mode to the Blend admin theme                     *
 // * Tested on WHMCS Version: 7.9.2 (7.9.2-release.1)                      *
 // * Feel free to use and modify as you wish                               *
@@ -436,6 +436,14 @@ table td[style="background-color:#ffebeb"] {
     border: 1px solid #3c3c3c !important;
     padding: 3px 10px !important;
     background: #23272b !important;
+}
+
+
+div#previewwndcontent table tbody td, div#previewwndcontent table tbody th {
+    background: #fff !important;
+}
+div#previewwndcontent img {
+    opacity: 1 !important;
 }
 
 
