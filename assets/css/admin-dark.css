@@ -669,6 +669,13 @@ div#ticketreplies img {
     border-bottom: 1px solid #272727 !important;
 }
 
+blockquote {
+    border-left: 5px solid #424242;
+}
+blockquote p {
+    color: #797979;
+}
+
 /*========================================================*/
 
 
@@ -710,6 +717,9 @@ div#ticketreplies img {
 }
 .widget-content-padded.to-do-items {
     padding: 15px 10px !important;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 10px;
 }
 .widget-content-padded.to-do-items .icheckbox_flat-blue {
     background: #545454 !important;
