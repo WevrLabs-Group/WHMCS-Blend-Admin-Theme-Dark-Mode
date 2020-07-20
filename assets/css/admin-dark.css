@@ -647,8 +647,10 @@ div[aria-label="A chart."] text {
     border-color: #29393e !important;
 }
 
-#ticketreplies .message {
-    color: #867f69 !important;
+#ticketreplies .message p {
+    color: #867f69!important;
+    text-align: start !important;
+    unicode-bidi: plaintext !important;
 }
 #ticketreplies .reply {
     background: #171717 !important;
