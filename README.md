@@ -20,13 +20,16 @@ This file adds dark interface to the Blend admin theme of WHMCS
 ## Instalation
 * Backup your WHMCS install folder first.
 * Download the master of this repository as ZIP.
-* Upload to your WHMCS root install folder and unzip.
+* Unzip and place templates folder in your WHMCS install/admin folder.
+
 
 ## Notes:
 * This has been tested on WHMCS v7.9.2
 * You can open `/assets/img/logo-dark.psd` to customize the logo to match your own brand if you wish.
 
 ## Change Notes:
+- 2.1
+    - Update to 8.x WHMCS thanks to garousiamir
 - 2.0
     - Installation process has been made more simple now.
     - More enhancements to appearance.
@@ -34,5 +37,7 @@ This file adds dark interface to the Blend admin theme of WHMCS
     - Initial release.
 
 ## Credits:
+* Tampa ([tampa]https://github.com/tampa)
+* garousiamir ([garousiamir]https://github.com/garousiamir)
 * Mohamed S. ([WevrLabs](https://wevrlabs.net))
 * brian! ([WHMCS Community](https://whmcs.community/profile/210329-brian/))
