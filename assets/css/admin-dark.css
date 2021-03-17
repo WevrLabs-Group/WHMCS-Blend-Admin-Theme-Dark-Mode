@@ -1,8 +1,8 @@
 /***************************************************************************
 // *                                                                       *
-// * Blend Dark Mode (v2.1)                                                *
+// * Blend Dark Mode (v2.2)                                                *
 // * This file adds dark mode to the Blend admin theme                     *
-// * Tested on WHMCS Version: 7.9.2 (7.9.2-release.1)                      *
+// * Tested on WHMCS Version: 8.1.3 (8.1.3-release.1)                      *
 // * Feel free to use and modify as you wish                               *
 // *                                                                       *
 // *************************************************************************
@@ -10,6 +10,11 @@
 // * Contributed by: WevrLabs Hosting                                      *
 // * Email: hello@wevrlabs.net                                             *
 // * Website: https://wevrlabs.net                                         *
+// *                                                                       *
+// *************************************************************************
+// *                                                                       *
+// * 8.1 Updates Contributed by: Daniel M. Reck at forzandoArts            *
+// * Website: https://forzando.art/digital                                 *
 // *                                                                       *
 // *************************************************************************/
 
@@ -119,7 +124,7 @@ ul.admin-tabs>li>a:hover, ul.client-tabs>li>a:hover {
 }
 
 .navigation {
-    background-color: #000000 !important;
+    background-color: #232323 !important;
     border-color: #232323 !important;
 }
 .navigation ul li {
@@ -140,7 +145,6 @@ ul.admin-tabs>li>a:hover, ul.client-tabs>li>a:hover {
     border-color: #2f2f2f !important;
 }
 .navigation ul li ul li {
-    background-color: #091527 !important;
     border-color: #3a3a3a !important;
 }
 .navigation ul li ul li:first-child {
@@ -150,6 +154,9 @@ ul.admin-tabs>li>a:hover, ul.client-tabs>li>a:hover {
     color: #949494 !important;
 }
 
+.navigation ul li ul.drop-icons li a:hover {
+    background-color: #111 !important;
+}
 
 .navbar-default {
     background-color: #232323 !important;
@@ -210,6 +217,10 @@ table.clientssummarystats {
 
 table.clientssummarystats tbody tr td {
     padding: 5px 8px !important;
+}
+
+.table-themed {
+    border: 1px solid #555 !important;
 }
 
 .clientsummaryactions {
@@ -293,6 +304,30 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #1f1f1f !important;
     border-color: #313131 !important;
 }
+
+
+.inset-grey-bg {
+    background-color: #070707 !important;
+}
+
+.well {
+    background-color: #0a0a0a !important;
+    border: 1px solid #1d1d1d !important;
+}
+
+.panel {
+    background-color: #000 !important;
+}
+
+.panel-default {
+    border-color: #444 !important;
+}
+
+.input-group-addon {
+    background-color: #111;
+    border-color: #333;
+}
+
 
 div.admin-tabs .context-btn-container, div.client-tabs .context-btn-container {
     background-color: #1f1f1f !important;
@@ -482,6 +517,11 @@ div#previewwndcontent img {
     color: #afafaf !important;
     background-color: #8c4d4d !important;
     border-color: #651a1a !important;
+}
+.alert-warning {
+    color: #fff !important;
+    background-color: #a2722d !important;
+    border-color: #bd8530 !important;
 }
 
 
@@ -678,6 +718,77 @@ blockquote p {
     color: #797979;
 }
 
+
+/*========================================================*/
+
+
+/*===================================================|
+|----------------------------------------------------|
+               Automation Status                     |
+|----------------------------------------------------|
+====================================================*/
+
+.automation-status .widget {
+    border: 1px solid #444 !important;
+}
+
+.automation-status .widget .info-container {
+    background:#000 !important;
+}
+
+.automation-status .graph-container {
+    background-color: #999 !important;
+}
+
+.automation-status .calendar-container {
+    background-color: #070707 !important;
+}
+
+
+/*========================================================*/
+
+
+/*===================================================|
+|----------------------------------------------------|
+                 System Settings                     |
+|----------------------------------------------------|
+====================================================*/
+
+.setup-links .link {
+    background-color: #070707 !important;
+    border: 1px solid #444 !important;
+}
+
+.setup-links .link:hover {
+    background-color: #000 !important;
+}
+
+.apps-and-integrations .app-wrapper,
+.notification-providers,
+.inset-element-container {
+    background-color: #000 !important;
+}
+
+.apps-and-integrations .app-wrapper .app.featured .app-inner,
+.signin-apps-container .app,
+.partner-box,
+.spotlight-tlds {
+    background-color: #070707 !important;
+    border: 1px solid #444 !important;
+}
+
+.partner-box-blue {
+    background-color:#1a4d80 !important;
+}
+
+.notification-providers .provider,
+div.partner-logo,
+.spotlight-tlds span {
+    background-color: #070707 !important;
+    border: 1px solid #222 !important;
+}
+
+
 /*========================================================*/
 
 
@@ -698,17 +809,19 @@ blockquote p {
     color: #797979 !important;
 }
 
-
 .widget-clientactivity .clients-list {
     margin: 0 10px 20px 10px !important;
 }
-
 
 .widget-clientactivity .client:nth-child(even) {
     background-color: #2f2f2f !important;
 }
 .widget-clientactivity .ip-address {
     color: #496c6d !important;
+}
+
+.widget-settings li.active {
+    background-color:#070707 !important;
 }
 
 .to-do-items .item {
@@ -940,6 +1053,12 @@ div#modcmdbtns .btn {
 }
 div#modcmdbtns .btn:hover {
     background: #4a482c !important;
+}
+
+.pager .disabled > a, .pager .disabled > a:focus, .pager .disabled > a:hover, .pager .disabled > span {
+    color:#888 !important;
+    background-color: #000 !important;
+    border:1px solid #888 !important;
 }
 
 /*=============================================================*/
