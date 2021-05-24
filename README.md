@@ -27,7 +27,7 @@ This extension creates a dark mode for the Blend admin theme of WHMCS, using the
 * You can open `/assets/img/logo-dark.psd` to customize the logo to match your own brand if you wish.
 
 ## Change Notes
-- 2.1
+- 2.2
     - Updated CSS and JS for WHMCS 8.1.3.
 - 2.0
     - Installation process has been made more simple now.
