@@ -1,6 +1,7 @@
 <?php
 
 // Contributed by brian! (https://whmcs.community/profile/210329-brian/)
+// Updated by @DanielMReck at @forzandoArts (https://forzando.art/digital)
 
 function admin_custom_css_hook($vars) 
 {
@@ -11,7 +12,7 @@ function admin_custom_css_hook($vars)
 		
 		<script type="text/javascript">		
 		$(document).ready(function() {
-			$(\'.header .logo img\').attr(\'src\', \'/assets/img/logo-dark.gif\');
+			$(\'a.logo img\').attr(\'src\', \'/assets/img/logo-dark.gif\');
 		})
 		</script>';
 		return $head_return;

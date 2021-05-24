@@ -1,38 +1,41 @@
 # WHMCS-Blend-Admin-Theme-Dark-Mode
-This file adds dark interface to the Blend admin theme of WHMCS
+This extension creates a dark mode for the Blend admin theme of WHMCS, using the built-in hook functionality.  It does not overwrite any native WHMCS files.
 
 ### Admin Homepage
-![Admin Homepage](https://github.com/WevrLabs-Group/WHMCS-Blend-Admin-Theme-Dark-Mode/blob/master/screenshots/Screen%20Shot%202020-05-27%20at%2010.10.40%20AM.png?raw=true)
+![Admin Homepage](https://raw.githubusercontent.com/danielmreck/WHMCS-Blend-Admin-Theme-Dark-Mode/master/screenshots/Screen%20Shot%202021-03-16%20at%2020.13.51%20v8.1.3%20Admin%20Homepage.png)
 
-### Clients' Services Summary
-![Clients' Services Summary](https://github.com/WevrLabs-Group/WHMCS-Blend-Admin-Theme-Dark-Mode/blob/master/screenshots/Screen%20Shot%202020-05-28%20at%206.56.20%20AM.png?raw=true)
+### Client Profile
+![Clients Profile](https://raw.githubusercontent.com/danielmreck/WHMCS-Blend-Admin-Theme-Dark-Mode/master/screenshots/Screen%20Shot%202021-03-16%20at%2020.22.08%20v8.1.3%20Client%20Profile.png)
 
 ### Service Management
-![Service Management](https://github.com/WevrLabs-Group/WHMCS-Blend-Admin-Theme-Dark-Mode/blob/master/screenshots/281362706_ScreenShot2020-05-27at7_00_39AM.png.52850f5110d46f83b5fa56ff699f6d97.png?raw=true)
+![Service Management](https://raw.githubusercontent.com/danielmreck/WHMCS-Blend-Admin-Theme-Dark-Mode/master/screenshots/Screen%20Shot%202021-03-16%20at%2020.25.27%20v8.1.3%20Client%20Service%20Management.png)
 
 ### Support Center
-![Support Center](https://github.com/WevrLabs-Group/WHMCS-Blend-Admin-Theme-Dark-Mode/blob/master/screenshots/Screen%20Shot%202020-05-29%20at%204.50.33%20PM.png?raw=true)
+![Support Center](https://raw.githubusercontent.com/danielmreck/WHMCS-Blend-Admin-Theme-Dark-Mode/master/screenshots/Screen%20Shot%202021-03-16%20at%2020.28.24%20v8.1.3%20Support%20Center.png)
 
 ### Ticket
-![Ticket](https://github.com/WevrLabs-Group/WHMCS-Blend-Admin-Theme-Dark-Mode/blob/master/screenshots/Screen%20Shot%202020-05-29%20at%203.59.13%20PM.png?raw=true)
+![Ticket](https://raw.githubusercontent.com/danielmreck/WHMCS-Blend-Admin-Theme-Dark-Mode/master/screenshots/Screen%20Shot%202021-03-16%20at%2020.31.28%20v8.1.3%20Ticket.png)
 
 
-## Instalation
+## Installation
 * Backup your WHMCS install folder first.
 * Download the master of this repository as ZIP.
 * Upload to your WHMCS root install folder and unzip.
 
-## Notes:
-* This has been tested on WHMCS v7.9.2
+## Notes
+* This has been tested on WHMCS v8.1.3
 * You can open `/assets/img/logo-dark.psd` to customize the logo to match your own brand if you wish.
 
-## Change Notes:
+## Change Notes
+- 2.2
+    - Updated CSS and JS for WHMCS 8.1.3.
 - 2.0
     - Installation process has been made more simple now.
     - More enhancements to appearance.
 - 1.0
     - Initial release.
 
-## Credits:
+## Credits
 * Mohamed S. ([WevrLabs](https://wevrlabs.net))
 * brian! ([WHMCS Community](https://whmcs.community/profile/210329-brian/))
+* [Daniel M. Reck](https://github.com/danielmreck/) ([forzandoArts](https://forzando.art/digital))
