@@ -8,7 +8,7 @@ This file adds dark interface to the Blend admin theme of WHMCS
 * Download the master of this repository and unzip the contents.
 * Upload `darkblend` folder to your WHMCS addons folder: `/yourwhmcspath/modules/addons/`.
 * Navigate to `System Settings` > `Addon Modules` and then activate `Blend Dark Mode` addon.
-* Regresh the page after activation to see changes.
+* Refresh the page after activation to see changes.
 
 ### upgrading from previous veriosns:
 * Go to your `/yourwhmcspath/includes/hooks/` folder and remove the `WHMCSBlendDarkMode.php` file. Without this step, you may experience some style overrides from the old version css file.
