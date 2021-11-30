@@ -16,7 +16,6 @@
 
 function admin_blend_css_hook($vars) 
 {
-	global $CONFIG;
 
 	if ($vars['template'] == "blend" ) {
 		return '<link href="../modules/addons/darkblend/css/dark-blend.css" rel="stylesheet" type="text/css" />';
