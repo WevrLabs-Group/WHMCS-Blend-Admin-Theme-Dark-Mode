@@ -30,6 +30,5 @@ function darkblend_config()
         'author'      => "<a href='https://wevrlabs.net' target='_blank' title='contributed by WevrLabs Hosting'><img style='padding:7px;width:150px' src='$logo' alt='contributed by WevrLabs Hosting'></a>",
         'language'    => 'english',
         'version'     => '3.0.0',
-        'premium'     => false,
     ];
 }

@@ -1,0 +1,36 @@
+{
+    "schema": "1.0",
+    "type": "whmcs-addons",
+    "name": "darkblend",
+    "version": "3.0.0",
+    "license": "free",
+    "category": "utilites",
+    "premium": "false",
+    "description": {
+        "name": "Blend Dark Mode",
+        "tagline": "This module adds a dark mode for WHMCS admin theme Blend. To enable the dark UI, simply Activate the addon, and to disable the dark mode, simple Deactivate the addon.",
+        "long": "This module adds a dark mode for WHMCS admin theme Blend. To enable the dark UI, simply Activate the addon, and to disable the dark mode, simple Deactivate the addon.",
+        "features": [
+            "Easily add a dark UI to the Blend admin theme."
+        ]
+    },
+    "logo": {
+        "filename": "logo.png"
+    },
+    "marketplace": {
+        "url": "https:\/\/marketplace.whmcs.com\/product\/5466"
+    },
+    "support": {
+        "homepage": "https:\/\/wevrlabs.net\/", 
+        "learn_more": "https:\/\/wevrlabs.net\/", 
+        "email": "hello@wevrlabs.net",
+        "support_url": "https:\/\/wevrlabs.net\/",
+        "docs_url": "https:\/\/wevrlabs.net\/"
+    },
+    "authors": [
+        {
+            "name": "WevrLabs Web Solutions",
+            "homepage": "https:\/\/wevrlabs.net\/"
+        }
+    ]
+}
