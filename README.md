@@ -19,7 +19,7 @@ This file adds dark interface to the Blend admin theme of WHMCS
 ## Change Notes:
 - 3.0.0
     - Redisgend as addon so installation process is now even more simple.
-    -  witCompatibilityh WHMCS v8.x.
+    -  Compatibility with WHMCS v8.x.
 - 2.0.0
     - Installation process has been made more simple now.
     - More enhancements to appearance.
