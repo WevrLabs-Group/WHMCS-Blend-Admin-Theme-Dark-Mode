@@ -1220,3 +1220,11 @@ div#modcmdbtns .btn:hover {
 }
 
 /*=========================================================================*/
+
+.system-settings-index a.setting {
+	background-color: #000
+}
+
+.contentarea.theme-content-bg .theme-header {
+	background-color: #000
+}
