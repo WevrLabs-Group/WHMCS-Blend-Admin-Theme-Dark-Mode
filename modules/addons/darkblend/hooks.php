@@ -5,30 +5,33 @@
 // * Blend Dark Mode                                                       *
 // * This addon adds dark mode to the Blend admin theme                    *
 // * Compatible with WHMCS Version: 8.x                                    *
+// * https://github.com/WevrLabs-Group/WHMCS-Blend-Admin-Theme-Dark-Mode   *
 // *                                                                       *
 // *************************************************************************
 // *                                                                       *
-// * Contributed by: WevrLabs Hosting                                      *
+// * Maintained by: WevrLabs Hosting                                       *
 // * Email: hello@wevrlabs.net                                             *
 // * Website: https://wevrlabs.net                                         *
 // *                                                                       *
 // *************************************************************************/
 
-if (!defined("WHMCS")) {
-    die("This file cannot be accessed directly");
-}
-
 use WHMCS\Database\Capsule;
 
-function darkblend_config()
+function admin_blend_maincss_hook($vars) 
 {
-    include_once "logo.php";
 
-    return [
-        'name'        => 'Blend Dark Mode',
-        'description' => 'This module adds a dark mode for WHMCS admin theme Blend. To enable the dark UI, simply Activate the addon, and to disable the dark mode, Deactivate the addon.',
-        'author'      => "<a href='https://wevrlabs.net' target='_blank' title='contributed by WevrLabs Hosting'><img style='padding:7px;width:150px' src='$logo' alt='contributed by WevrLabs Hosting'></a>",
-        'language'    => 'english',
-        'version'     => '3.0.3',
-    ];
+	if ($vars['template'] == "blend" ) {
+		return '<link href="../modules/addons/darkblend/css/dark-blend.css" rel="stylesheet" type="text/css" />';
+	}
 }
+
+function admin_blend_customcss_hook($vars)
+{
+
+	if ($vars['template'] == "blend") {
+		return '<link href="../modules/addons/darkblend/custom.css" rel="stylesheet" type="text/css" />';
+	}
+}
+
+add_hook("AdminAreaHeadOutput", 1, "admin_blend_maincss_hook");
+add_hook("AdminAreaFooterOutput", 1, "admin_blend_customcss_hook");
