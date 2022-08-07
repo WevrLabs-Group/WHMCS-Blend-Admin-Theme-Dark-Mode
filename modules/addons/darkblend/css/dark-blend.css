@@ -1014,6 +1014,19 @@ div.partner-logo,
     border: 1px solid #222 !important;
 }
 
+
+
+.tab-content .col-md-4 .text-center {
+    background: #1b1b1b !important;
+}
+.partner-box-blue {
+    background-color: #1e344a !important;
+}
+.text-muted {
+    background: #1b1b1b !important;
+    padding: 10px 0;
+}
+
 /*========================================================*/
 
 /*===================================================|
@@ -1309,6 +1322,11 @@ polygon {
     color: #cecece !important;
     background-color: #284d6d !important;
     border-color: #356f7f !important;
+}
+
+.btn-warning {
+    color: #fff !important;
+    background-color: #b06c0d;
 }
 
 .btn.disabled,
