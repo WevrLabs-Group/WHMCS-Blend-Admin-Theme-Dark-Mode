@@ -330,6 +330,12 @@ div#mergefields a:hover {
     border-color: #3c3c3c;
 }
 
+
+
+h2.balance-title {
+    margin-top: 10px !important;
+}
+
 /*=========================================================================*/
 
 /*===================================================|
@@ -1004,7 +1010,7 @@ blockquote p {
 }
 
 .partner-box-blue {
-    background-color: #1a4d80 !important;
+    background-color: #1e344a !important;
 }
 
 .notification-providers .provider,
@@ -1020,13 +1026,13 @@ div.partner-logo,
     background: #1b1b1b !important;
 }
 
-.partner-box-blue {
-    background-color: #1e344a !important;
-}
-
-.text-muted {
+div#featured .text-muted {
     background: #1b1b1b !important;
     padding: 10px 0;
+}
+
+div#all .clearfix {
+    background: transparent !important;
 }
 
 /*========================================================*/
@@ -1386,7 +1392,6 @@ div#modcmdbtns .btn:hover {
 
 /*==================================================================|
 |-------------------------------------------------------------------|
-            CSS rules for top bar classic stats hook                |
-(https: //whmcs.community/topic/302453-v801-admin-info-stats-bar/)  |
+                  CSS rules for other modules/addons                |
 |-------------------------------------------------------------------|
 ===================================================================*/
