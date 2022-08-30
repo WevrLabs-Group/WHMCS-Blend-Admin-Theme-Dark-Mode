@@ -986,6 +986,13 @@ blockquote p {
 |----------------------------------------------------|
 ====================================================*/
 
+.contentarea.theme-content-bg .theme-header,
+.system-settings-index a.setting,
+.system-settings-index a.setting .icon {
+    background: #151515 !important;
+    border-color: #313131 !important;
+}
+
 .setup-links .link {
     background-color: #070707 !important;
     border: 1px solid #444 !important;
@@ -993,6 +1000,19 @@ blockquote p {
 
 .setup-links .link:hover {
     background-color: #000 !important;
+}
+
+.system-settings-index a.setting .icon {
+    color: #929292 !important;
+}
+
+.system-settings-index a.setting:hover .icon,
+.system-settings-index a.setting .title {
+    color: #519ec9 !important;
+}
+
+.system-settings-index .setup-side-menu li.active a {
+    background-color: #283128 !important;
 }
 
 .apps-and-integrations .app-wrapper,
@@ -1067,6 +1087,11 @@ div#all .clearfix {
 
 .widget-clientactivity .ip-address {
     color: #496c6d !important;
+}
+
+.widget-settings li {
+    border-color: #444344 !important;
+    color: #ababab !important;
 }
 
 .widget-settings li.active {
