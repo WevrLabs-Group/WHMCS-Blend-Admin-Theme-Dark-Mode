@@ -988,7 +988,9 @@ blockquote p {
 
 .contentarea.theme-content-bg .theme-header,
 .system-settings-index a.setting,
-.system-settings-index a.setting .icon {
+.system-settings-index a.setting .icon,
+.slide-tray,
+.setup-tasks ul li {
     background: #151515 !important;
     border-color: #313131 !important;
 }
