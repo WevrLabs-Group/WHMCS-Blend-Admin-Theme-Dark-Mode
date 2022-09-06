@@ -24,7 +24,7 @@ body {
 }
 
 .contentarea {
-    border-color: #232323 !important;
+    border-color: var(--color-dark-3) !important;
 }
 
 body,
@@ -38,12 +38,12 @@ hr {
 }
 
 .contentbox {
-    background-color: #212121 !important;
-    border-color: #2f2f2f !important;
+    background-color: var(--color-dark-2) !important;
+    border-color: var(--color-dark-5) !important;
 }
 
 .clientssummarybox {
-    background-color: #212121 !important;
+    background-color: var(--color-dark-2) !important;
 }
 
 .client-summary-name {
@@ -69,8 +69,8 @@ ul.client-tabs>li>a:first-child {
 }
 
 #clientsummarycontainer #statusfilter {
-    background: #272727 !important;
-    border-color: #2f2f2f !important;
+    background: var(--color-dark-4) !important;
+    border-color: var(--color-dark-5) !important;
 }
 
 #clientsummarycontainer #statusfilter th {
@@ -94,8 +94,8 @@ table.clientssummarystats tbody tr td {
 }
 
 .clientsummaryactions {
-    border-color: #212121 !important;
-    background-color: #212121 !important;
+    border-color: var(--color-dark-2) !important;
+    background-color: var(--color-dark-2) !important;
 }
 
 #clientsummarycontainer .bulk-actions {
@@ -165,7 +165,7 @@ select {
 
 div.admin-tabs>.active,
 div.client-tabs>.active {
-    border-color: #2f2f2f !important;
+    border-color: var(--color-dark-5) !important;
 }
 
 a {
@@ -188,7 +188,7 @@ h6 {
 
 #sidebar {
     background-color: #1b1b1b !important;
-    border-color: #232323 !important;
+    border-color: var(--color-dark-3) !important;
 }
 
 #sidebar span.header {
@@ -245,7 +245,7 @@ div.client-tabs .context-btn-container {
 
 .dropdown-menu>li>a:hover,
 .dropdown-menu>li>a:focus {
-    background: #2f2f2f !important;
+    background: var(--color-dark-5) !important;
 }
 
 .popup-content-area {
@@ -276,12 +276,12 @@ div.client-tabs .context-btn-container {
 }
 
 .module-queue .entry {
-    background-color: #232323 !important;
+    background-color: var(--color-dark-3) !important;
     border-bottom: 1px solid #353535 !important;
 }
 
 .bordered {
-    background-color: #232323 !important;
+    background-color: var(--color-dark-3) !important;
     border-color: #3a3a3a !important;
 }
 
@@ -381,7 +381,7 @@ h2.balance-title {
 
 .topbar,
 .sidebar .btn-min-sidebar {
-    background-color: #232323 !important;
+    background-color: var(--color-dark-3) !important;
 }
 
 .topbar a {
@@ -432,16 +432,16 @@ span.v8fallback {
 }
 
 .search-bar .simple {
-    background: #232323 !important;
+    background: var(--color-dark-3) !important;
     border-color: #3a3a3a !important;
 }
 
 .search-fields {
-    border-color: #232323 !important;
+    border-color: var(--color-dark-3) !important;
 }
 
 .search-bar {
-    background: #232323 !important;
+    background: var(--color-dark-3) !important;
 }
 
 .search-bar .search-icon {
@@ -485,32 +485,32 @@ span.v8fallback {
 ====================================================*/
 
 .nav-tabs {
-    border-color: #2f2f2f !important;
+    border-color: var(--color-dark-5) !important;
 }
 
 ul.admin-tabs>li>a,
 ul.client-tabs>li>a {
-    background-color: #2f2f2f !important;
-    border-color: #2f2f2f !important;
+    background-color: var(--color-dark-5) !important;
+    border-color: var(--color-dark-5) !important;
 }
 
 ul.admin-tabs>li>a:hover,
 ul.client-tabs>li>a:hover {
-    border-color: #2f2f2f !important;
+    border-color: var(--color-dark-5) !important;
 }
 
 .nav>li>a:focus,
 .nav>li>a:hover {
-    background-color: #232323 !important;
+    background-color: var(--color-dark-3) !important;
 }
 
 .navigation {
-    background-color: #232323 !important;
-    border-color: #232323 !important;
+    background-color: var(--color-dark-3) !important;
+    border-color: var(--color-dark-3) !important;
 }
 
 .navigation ul li {
-    background-color: #232323 !important;
+    background-color: var(--color-dark-3) !important;
     border-color: var(--color-dark) !important;
 }
 
@@ -525,8 +525,8 @@ ul.client-tabs>li>a:hover {
 }
 
 .navigation ul li ul {
-    background-color: #2f2f2f !important;
-    border-color: #2f2f2f !important;
+    background-color: var(--color-dark-5) !important;
+    border-color: var(--color-dark-5) !important;
 }
 
 .navigation ul li ul li {
@@ -560,7 +560,7 @@ ul.client-tabs>li>a:hover {
 }
 
 .navbar-default {
-    background-color: #232323 !important;
+    background-color: var(--color-dark-3) !important;
     border-color: #3c3c3c !important;
 }
 
@@ -578,7 +578,7 @@ ul.client-tabs>li>a:hover {
 }
 
 .nav-tabs>li>a:hover {
-    border-color: #4e4e4e #4e4e4e #2f2f2f #4e4e4e !important;
+    border-color: #4e4e4e #4e4e4e var(--color-dark-5) #4e4e4e !important;
 }
 
 
@@ -663,7 +663,7 @@ a.orders-pending-nav {
 
 table th,
 .table-bordered {
-    background-color: #232323 !important;
+    background-color: var(--color-dark-3) !important;
     border-color: #3c3c3c !important;
 }
 
@@ -677,12 +677,12 @@ table th {
 
 table th a {
     color: #6f6f6f !important;
-    border-color: #2f2f2f !important;
+    border-color: var(--color-dark-5) !important;
 }
 
 table td {
-    background-color: #272727 !important;
-    border-color: #2f2f2f !important;
+    background-color: var(--color-dark-4) !important;
+    border-color: var(--color-dark-5) !important;
 }
 
 table tr:hover td {
@@ -693,7 +693,7 @@ table tr:hover td {
 
 table.form {
     background-color: #1d1d1d !important;
-    border-color: #2f2f2f !important;
+    border-color: var(--color-dark-5) !important;
 }
 
 tr.rowhighlight>td {
@@ -837,7 +837,7 @@ a[style="color:#006633"] {
 ====================================================*/
 
 rect {
-    fill: #232323 !important;
+    fill: var(--color-dark-3) !important;
 }
 
 text {
@@ -849,7 +849,7 @@ g rect {
 }
 
 .report-filters-wrapper {
-    background: #232323 !important;
+    background: var(--color-dark-3) !important;
     border-color: #343434 !important;
 }
 
@@ -858,7 +858,7 @@ div[aria-label="A chart."] text {
 }
 
 .transactions-header {
-    background-color: #232323 !important;
+    background-color: var(--color-dark-3) !important;
 }
 
 .transactions-header .stat .icon {
@@ -985,11 +985,11 @@ div[aria-label="A chart."] text {
 
 .ticket-reply-submit-options,
 .ticket-reply-edit-options {
-    background-color: #232323 !important;
+    background-color: var(--color-dark-3) !important;
 }
 
 .ticket-reply-submit-options .inner-container {
-    background-color: #232323 !important;
+    background-color: var(--color-dark-3) !important;
     border-color: #3e3e3e !important;
 }
 
@@ -1050,7 +1050,7 @@ div#ticketreplies img {
 }
 
 .postedon {
-    border-bottom: 1px solid #272727 !important;
+    border-bottom: 1px solid var(--color-dark-4) !important;
 }
 
 blockquote {
@@ -1174,11 +1174,11 @@ div#all .clearfix {
 
 .dashboard-panel-item .panel-body {
     border-color: #444344 !important;
-    background: #232323 !important;
+    background: var(--color-dark-3) !important;
 }
 
 .dashboard-panel-item .panel-heading {
-    background-color: #2f2f2f !important;
+    background-color: var(--color-dark-5) !important;
 }
 
 .dashboard-panel-item .panel-heading .panel-title,
@@ -1191,7 +1191,7 @@ div#all .clearfix {
 }
 
 .widget-clientactivity .client:nth-child(even) {
-    background-color: #2f2f2f !important;
+    background-color: var(--color-dark-5) !important;
 }
 
 .widget-clientactivity .ip-address {
@@ -1208,7 +1208,7 @@ div#all .clearfix {
 }
 
 .to-do-items .item {
-    background-color: #2f2f2f !important;
+    background-color: var(--color-dark-5) !important;
     margin: 0 0 10px 0 !important;
     padding: 0 10px 10px 10px !important;
     border: 1px solid #3c3c3c !important;
@@ -1262,7 +1262,7 @@ div#all .clearfix {
 }
 
 .widget-paypaloverview .panel-body div {
-    background: #232323 !important;
+    background: var(--color-dark-3) !important;
     color: #47985c !important;
 }
 
@@ -1284,7 +1284,7 @@ polygon {
 
 .panel-footer,
 .panel-heading {
-    background: #272727 !important;
+    background: var(--color-dark-4) !important;
     border-color: #333333 !important;
 }
 
@@ -1332,7 +1332,7 @@ polygon {
 }
 
 .widget-support .tickets-list .ticket:nth-child(even) {
-    background-color: #2f2f2f;
+    background-color: var(--color-dark-5);
 }
 
 /*=========================================================================*/
@@ -1540,9 +1540,13 @@ div#modcmdbtns .btn:hover {
 ===================================================================*/
 
 :root {
+    --color-dark:   #000;
+    --color-dark-2: #212121;
+    --color-dark-3: #232323;
+    --color-dark-3: #272727;
+    --color-dark-5: #2f2f2f;
     --color-gray:   #888;
     --color-gray-2: #ddd;
-    --color-dark:   #000;
     --color-green:  #307d48;
     --color-green-2:#27653a;
     --color-blue:   #1b4d80;
