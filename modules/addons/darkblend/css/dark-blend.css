@@ -1543,12 +1543,15 @@ div#modcmdbtns .btn:hover {
     --color-dark:   #000;
     --color-dark-2: #212121;
     --color-dark-3: #232323;
-    --color-dark-3: #272727;
+    --color-dark-4: #272727;
     --color-dark-5: #2f2f2f;
+
     --color-gray:   #888;
     --color-gray-2: #ddd;
+
     --color-green:  #307d48;
     --color-green-2:#27653a;
+    
     --color-blue:   #1b4d80;
     --color-blue-2: #133e69;
 }
