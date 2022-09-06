@@ -29,19 +29,19 @@ function darkblend_config()
         'language'    => 'english',
         'version'     => '3.1.0',
         "fields"      => [
-            'datetime_enable'           => [
-                'FriendlyName' => 'Display date and time in main navbar',
+            'datetime_enable'       => [
+                'FriendlyName' => 'Display date and time',
                 'Type'         => 'yesno',
                 'Size'         => '55',
                 'Default'      => 'yes',
-                'Description'  => 'Check this to display date and time in the main navbar.',
+                'Description'  => 'Check this to display date and time in the main navbar - takes effect on WHMCS v8 only.',
             ],
-            'ticketcount_enable'           => [
-                'FriendlyName' => 'Display open tickets count in main navbar',
+            'ticketcount_enable'    => [
+                'FriendlyName' => 'Display open tickets count',
                 'Type'         => 'yesno',
                 'Size'         => '55',
                 'Default'      => 'yes',
-                'Description'  => 'Check this to display open tickets count in the main navbar.',
+                'Description'  => 'Check this to display open tickets count in the main navbar - takes effect on WHMCS v8 only.',
             ],
         ],
     ];

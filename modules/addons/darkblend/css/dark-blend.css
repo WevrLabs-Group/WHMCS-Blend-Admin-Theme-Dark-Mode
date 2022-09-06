@@ -30,7 +30,7 @@ body {
 body,
 .header,
 .contentarea {
-    background-color: #000000 !important;
+    background-color: var(--color-dark) !important;
 }
 
 hr {
@@ -158,7 +158,7 @@ select {
 .pagination>li>a:hover,
 .pagination>li>span:focus,
 .pagination>li>span:hover {
-    color: #000000 !important;
+    color: var(--color-dark) !important;
     background-color: #6f6f6f !important;
     border-color: #616161 !important;
 }
@@ -216,7 +216,7 @@ h6 {
 }
 
 .panel {
-    background-color: #000 !important;
+    background-color: var(--color-dark) !important;
 }
 
 .panel-default {
@@ -240,7 +240,7 @@ div.client-tabs .context-btn-container {
 }
 
 .dropdown-menu {
-    background: #000000 !important;
+    background: var(--color-dark) !important;
 }
 
 .dropdown-menu>li>a:hover,
@@ -286,7 +286,7 @@ div.client-tabs .context-btn-container {
 }
 
 .bordered:hover {
-    background: #000000 !important;
+    background: var(--color-dark) !important;
 }
 
 div#mergefields td {
@@ -304,7 +304,7 @@ div#mergefields a:hover {
 
 .apps-and-integrations .aai-primary-nav a {
     background-color: #313131 !important;
-    color: #ddd !important;
+    color: var(--color-gray-2) !important;
     border-color: #313131 !important;
 }
 
@@ -313,12 +313,12 @@ div#mergefields a:hover {
 }
 
 .footerbar {
-    background-color: #000000 !important;
+    background-color: var(--color-dark) !important;
     color: #828282 !important;
 }
 
 .footerbar a {
-    color: #888 !important;
+    color: var(--color-gray) !important;
 }
 
 .tld-import-step .tld-pricing>.local-pricing {
@@ -334,6 +334,41 @@ div#mergefields a:hover {
 
 h2.balance-title {
     margin-top: 10px !important;
+}
+
+
+
+@keyframes tada {
+    0% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+
+    10%,
+    20% {
+        -webkit-transform: scale3d(1, 1, 1) rotate3d(0, 0, 1, 1.52deg);
+        transform: scale3d(1, 1, 1) rotate3d(0, 0, 1, -1.5deg);
+    }
+
+    30%,
+    50%,
+    70%,
+    90% {
+        -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 1.5deg);
+        transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 1.5deg);
+    }
+
+    40%,
+    60%,
+    80% {
+        -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -1.5deg);
+        transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -1.5deg);
+    }
+
+    100% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
 }
 
 /*=========================================================================*/
@@ -386,7 +421,7 @@ h2.balance-title {
     color: #737373 !important;
 }
 
-.v8fallbackul span.ico-container {
+.v8fallbackul span.icon-container {
     font-size: 3em !important;
 }
 
@@ -428,7 +463,7 @@ span.v8fallback {
 }
 
 .contexthelp a {
-    color: #000000 !important;
+    color: var(--color-dark) !important;
 }
 
 .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-primary,
@@ -476,7 +511,7 @@ ul.client-tabs>li>a:hover {
 
 .navigation ul li {
     background-color: #232323 !important;
-    border-color: #000000 !important;
+    border-color: var(--color-dark) !important;
 }
 
 .navigation ul li a {
@@ -508,7 +543,7 @@ ul.client-tabs>li>a:hover {
     /*color: #949494 !important;*/
 }
 
-.navigation ul li ul.drop-icons li a .ico-container i {
+.navigation ul li ul.drop-icons li a .icon-container i {
     display: inline-block;
     width: auto;
     color: #5795d2 !important;
@@ -545,6 +580,78 @@ ul.client-tabs>li>a:hover {
 .nav-tabs>li>a:hover {
     border-color: #4e4e4e #4e4e4e #2f2f2f #4e4e4e !important;
 }
+
+
+
+
+/* ------- ======== ------- [( Nav Stats )] ------- ======== ------- */
+
+small.v8navstatsul {
+    display: inline-flex;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: -10px 0 0 0;
+}
+
+.v8navstatsul span.icon-container {
+    font-size: 1.5em !important;
+    display: inline-flex;
+    margin: 0 7px 0 0;
+}
+
+.navigation ul.right-nav li a.orders-pending-nav,
+.navigation ul.right-nav li a.invoices-nav,
+.navigation ul.right-nav li a.tickets-nav {
+    background: none !important;
+    margin: 0 !important;
+}
+
+a.orders-pending-nav {
+    margin-right: -10px !important;
+}
+
+.v8navstatsul span.icon-container i {
+    display: contents !important;
+}
+
+.navigation .navbar-collapse>ul>li:not(.bt)>a.tickets-nav {
+    /*padding: 0 !important;*/
+}
+
+.nav-time {
+    max-width: 180px !important;
+}
+
+.nav-time small {
+    padding: 0 10px !important;
+    cursor: pointer;
+    line-height: 34px;
+    display: inline-flex;
+}
+
+.nav-time i.fas.fa-clock {
+    font-size: 17px;
+}
+
+.nav-time span {
+    color: #aaaaaa;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.nav-time span.icon-container {
+    margin: 0 5px 0 0;
+}
+
+.nav-date,
+.nav-clock {
+    font-weight: 900 !important;
+    color: #d0d0d0 !important;
+}
+
 
 /*===============================================================================*/
 
@@ -628,7 +735,7 @@ div#previewwndcontent img {
 
 .table-serversync tr.matched:not(.dupe) span {
     background-color: #40ce3c;
-    color: #000;
+    color: var(--color-dark);
 }
 
 .table-serversync tr.matched span.e {
@@ -663,7 +770,7 @@ div#previewwndcontent img {
 
 .label-default {
     background: #565656 !important;
-    color: #ddd !important;
+    color: var(--color-gray-2) !important;
 }
 
 .alert-info {
@@ -717,7 +824,7 @@ a[style="color:#006633"] {
 
 .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-default,
 .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-default {
-    color: #000 !important;
+    color: var(--color-dark) !important;
     background: #737373 !important;
 }
 
@@ -823,7 +930,7 @@ div[aria-label="A chart."] text {
 .daterangepicker td.in-range {
     background-color: #73848c !important;
     border-color: transparent !important;
-    color: #000;
+    color: var(--color-dark);
     border-radius: 0;
 }
 
@@ -873,7 +980,7 @@ div[aria-label="A chart."] text {
 
 .md-header.btn-toolbar,
 .md-footer {
-    background: #000 !important;
+    background: var(--color-dark) !important;
 }
 
 .ticket-reply-submit-options,
@@ -967,7 +1074,7 @@ blockquote p {
 }
 
 .automation-status .widget .info-container {
-    background: #000 !important;
+    background: var(--color-dark) !important;
 }
 
 .automation-status .graph-container {
@@ -1001,7 +1108,7 @@ blockquote p {
 }
 
 .setup-links .link:hover {
-    background-color: #000 !important;
+    background-color: var(--color-dark) !important;
 }
 
 .system-settings-index a.setting .icon {
@@ -1020,7 +1127,7 @@ blockquote p {
 .apps-and-integrations .app-wrapper,
 .notification-providers,
 .inset-element-container {
-    background-color: #000 !important;
+    background-color: var(--color-dark) !important;
 }
 
 .apps-and-integrations .app-wrapper .app.featured .app-inner,
@@ -1315,12 +1422,12 @@ polygon {
 
 .btn-period-chooser .btn.active {
     color: #040404 !important;
-    border-color: #808080 !important;
+    border-color: #9e9292 !important;
     background: #5d5d5d !important;
 }
 
 .btn-primary {
-    color: #ddd !important;
+    color: var(--color-gray-2) !important;
 }
 
 .btn-success {
@@ -1377,22 +1484,22 @@ fieldset[disabled] .btn {
 }
 
 button#btnStatusEnabled {
-    background: #1b4d80 !important;
+    background: var(--color-blue) !important;
     color: #c5c5c5;
 }
 
 button#btnStatusEnabled:hover {
-    background: #133e69 !important;
+    background: var(--color-blue-2) !important;
 }
 
 .btn.btn-sm.btn-block.top-margin-5 {
-    background: #307d48 !important;
-    color: #ddd !important;
-    border-color: #307d48 !important;
+    background: var(--color-green) !important;
+    color: var(--color-gray-2) !important;
+    border-color: var(--color-green) !important;
 }
 
 .btn.btn-sm.btn-block.top-margin-5:hover {
-    background: #27653a !important;
+    background: var(--color-green-2) !important;
 }
 
 div#modcmdbtns .btn {
@@ -1409,9 +1516,9 @@ div#modcmdbtns .btn:hover {
 .pager .disabled>a:focus,
 .pager .disabled>a:hover,
 .pager .disabled>span {
-    color: #888 !important;
-    background-color: #000 !important;
-    border: 1px solid #888 !important;
+    color: var(--color-gray) !important;
+    background-color: var(--color-dark) !important;
+    border: 1px solid var(--color-gray) !important;
 }
 
 /*=========================================================================*/
@@ -1422,3 +1529,22 @@ div#modcmdbtns .btn:hover {
                   CSS rules for other modules/addons                |
 |-------------------------------------------------------------------|
 ===================================================================*/
+
+
+
+
+/*==================================================================|
+|-------------------------------------------------------------------|
+                            CSS Variables                           |
+|-------------------------------------------------------------------|
+===================================================================*/
+
+:root {
+    --color-gray:   #888;
+    --color-gray-2: #ddd;
+    --color-dark:   #000;
+    --color-green:  #307d48;
+    --color-green-2:#27653a;
+    --color-blue:   #1b4d80;
+    --color-blue-2: #133e69;
+}
