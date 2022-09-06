@@ -17,6 +17,7 @@
 
 use WHMCS\Database\Capsule;
 
+# main CSS call
 function admin_blend_maincss_hook($vars)  {
 
 	if ($vars['template'] == "blend" ) {
@@ -24,6 +25,7 @@ function admin_blend_maincss_hook($vars)  {
 	}
 }
 
+# custom CSS call
 function admin_blend_customcss_hook($vars) {
 
 	if ($vars['template'] == "blend" && file_exists(ROOTDIR . "/modules/addons/darkblend/custom.css")) {
@@ -31,6 +33,7 @@ function admin_blend_customcss_hook($vars) {
 	}
 }
 
+# Stats call
 function admin_blend_stats_hook($vars) {
 
 	$v8 = Capsule::select(Capsule::raw('SELECT value FROM tblconfiguration WHERE setting = "Version" LIMIT 1'))[0]->value;
