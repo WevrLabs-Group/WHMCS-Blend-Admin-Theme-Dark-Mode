@@ -57,7 +57,7 @@ HTML;
 	}
 
 	if ($showTime->value) {
-		$time = '<li class="nav-time"><small><span class="v8navstats"><span class="icon-container"><i class="icon fas fa-clock"></i></span><span class="nav-date">' . date('M d, H:i') . '</span><span class="nav-clock"></span></span></small></li>';
+		$time = '<li class="nav-time" title="' . date('M d Y, H:i') . '"><small><span class="v8navstats"><span class="icon-container"><i class="icon fas fa-clock"></i></span><span class="nav-date">' . date('M d, H:i') . '</span><span class="nav-clock"></span></span></small></li>';
 	}
 
 	return <<<HTML
