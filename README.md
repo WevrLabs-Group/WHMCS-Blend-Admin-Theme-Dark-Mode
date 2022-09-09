@@ -13,10 +13,10 @@ This file adds dark interface to the Blend admin theme of WHMCS
 * Go to your `/yourwhmcspath/includes/hooks/` folder and remove the `WHMCSBlendDarkMode.php` file. Without this step, you may experience some style overrides from the old version css file.
 
 ## Custom CSS:
-You can add your custom CSS rules, which will be applied to the admin area. To do that, and inside the addon folder `darkblend` there's a file called `custom-rename.css`, just rename this to `custom.css` and then you can add your customized CSS rules in this file here.
+You can add your custom CSS rules, which will be applied to the admin area when using Blend theme. To do that, and inside the addon folder `darkblend` there's a file called `custom-rename.css`, just rename this to `custom.css` and then you can add your customized CSS rules in this file.
 
 ## Notes:
-* This addon is .compatible with WHMCS v8.x versions
+* This addon is compatible with WHMCS v8.x versions.
 
 ## Change Notes:
 - 3.1.0
