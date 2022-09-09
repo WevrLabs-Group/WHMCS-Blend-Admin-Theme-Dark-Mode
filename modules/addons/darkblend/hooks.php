@@ -52,12 +52,7 @@ function admin_blend_stats_hook($vars) {
 		$ticketText 		= $ticketsTotal . ' ' . AdminLang::trans('stats.ticketsawaitingreply');
 
 		$awaitingTicketsJS 	= <<<HTML
-        <li><a href="supporttickets.php" class="tickets-nav" data-toggle="tooltip" data-placement="bottom" title="{$ticketText}" data-original-title="{$ticketText}" style="word-wrap:break-word;{$tada}">
-			<small class="v8navstatsul">
-				<span class="icon-container"><i class="fad fa-comments"></i></span>
-				<span class="v8navstats" {$ticketsAwaitCol}>{$ticketsTotal}</span>
-			</small>
-		</a></li>
+        <li><a href="supporttickets.php" class="tickets-nav" data-toggle="tooltip" data-placement="bottom" title="{$ticketText}" data-original-title="{$ticketText}" style="word-wrap:break-word;{$tada}"><small class="v8navstatsul"><span class="icon-container"><i class="fad fa-comments"></i></span><span class="v8navstats" {$ticketsAwaitCol}>{$ticketsTotal}</span></small></a></li>
 HTML;
 	}
 
@@ -67,15 +62,21 @@ HTML;
 
 	return <<<HTML
 <script type="text/javascript">
-$(document).on('ready', function() {
-    $('ul.right-nav').first('li').prepend('{$awaitingTicketsJS}{$time}');
-    $("*[id=\'v8navstats\']").on("click", function(e) {
-        e.preventDefault();
-        $(e.currentTarget).parent("li").toggleClass("expanded");
-    });
-    $('#v8navstats').next('ul').css({"width": "340px", "left": "-134px"});
-    $('span.v8navstats').css({"font-weight": "700"});
-});
+
+	$(document).on('ready', function() {
+
+		$('ul.right-nav').first('li').prepend('{$awaitingTicketsJS}{$time}');
+
+		$("*[id=\'v8navstats\']").on("click", function(e) {
+			e.preventDefault();
+			$(e.currentTarget).parent("li").toggleClass("expanded");
+		});
+
+		$('#v8navstats').next('ul').css({"width": "340px", "left": "-134px"});
+
+		$('span.v8navstats').css({"font-weight": "700"});
+	});
+
 </script>
 HTML;
 }

@@ -34,7 +34,7 @@ function darkblend_config()
                 'Type'         => 'yesno',
                 'Size'         => '55',
                 'Default'      => 'yes',
-                'Description'  => 'Check this to display date and time in the main navbar - takes effect on WHMCS v8 only.',
+                'Description'  => 'Check this to display current date and time in the main navbar - takes effect on WHMCS v8 only.',
             ],
             'ticketcount_enable'    => [
                 'FriendlyName' => 'Display open tickets count',
