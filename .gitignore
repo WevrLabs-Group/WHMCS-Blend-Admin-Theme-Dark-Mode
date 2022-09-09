@@ -1,1 +1,7 @@
 *.DS_Store
+.DS_Store
+DS_Store
+sftp-config-alt.json
+sftp-config.json
+.vscode/
+custom.css
