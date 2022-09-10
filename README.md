@@ -19,6 +19,8 @@ You can add your custom CSS rules, which will be applied to the admin area when 
 * This addon is compatible with WHMCS v8.x versions.
 
 ## Change Notes:
+- 3.1.1
+    - Correct version number in `whmcs.json`.
 - 3.1.0
     - Ability to add custom css rules for customization.
     - Refactoring css code for easy customizations.
