@@ -371,6 +371,20 @@ h2.balance-title {
     }
 }
 
+
+.predefined-addons-wrapper {
+    background-color: var(--color-dark) !important;
+}
+
+.predefined-addons-wrapper .addon-product {
+    background-color: var(--color-dark-2) !important;
+}
+
+.multi-select-blocks div.active {
+    background-color: var(--color-dark-3) !important;
+    border-color: var(--color-dark-5);
+}
+
 /*=========================================================================*/
 
 /*===================================================|
@@ -525,7 +539,7 @@ ul.client-tabs>li>a:hover {
 }
 
 .navigation ul li ul {
-    background-color: var(--color-dark-5) !important;
+    background-color: var(--color-dark-3) !important;
     border-color: var(--color-dark-5) !important;
 }
 
@@ -581,7 +595,9 @@ ul.client-tabs>li>a:hover {
     border-color: #4e4e4e #4e4e4e var(--color-dark-5) #4e4e4e !important;
 }
 
-
+.navigation .navbar-collapse {
+    background-color: #232323 !important;
+}
 
 
 /* ------- ======== ------- [( Nav Stats )] ------- ======== ------- */
@@ -1061,6 +1077,11 @@ blockquote p {
     color: #797979;
 }
 
+
+.browse-section-title {
+    background-color: var(--color-dark-2) !important;
+}
+
 /*====================================================================*/
 
 /*===================================================|
@@ -1382,6 +1403,13 @@ polygon {
     color: #cecece !important;
 }
 
+@media only screen and (min-width: 1275px) {
+    .navigation ul li ul.drop-icons {
+        left: -213px;
+    }
+}
+
+
 /*=========================================================================*/
 
 /*===================================================|
@@ -1530,9 +1558,6 @@ div#modcmdbtns .btn:hover {
 |-------------------------------------------------------------------|
 ===================================================================*/
 
-
-
-
 /*=========================================================================*/
 
 /*==================================================================|
@@ -1542,18 +1567,18 @@ div#modcmdbtns .btn:hover {
 ===================================================================*/
 
 :root {
-    --color-dark:   #000;
+    --color-dark: #000;
     --color-dark-2: #212121;
     --color-dark-3: #232323;
     --color-dark-4: #272727;
     --color-dark-5: #2f2f2f;
 
-    --color-gray:   #888;
+    --color-gray: #888;
     --color-gray-2: #ddd;
 
-    --color-green:  #307d48;
-    --color-green-2:#27653a;
+    --color-green: #307d48;
+    --color-green-2: #27653a;
 
-    --color-blue:   #1b4d80;
+    --color-blue: #1b4d80;
     --color-blue-2: #133e69;
 }
