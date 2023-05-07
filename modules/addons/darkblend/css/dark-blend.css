@@ -743,8 +743,8 @@ div#previewwndcontent img {
 }
 
 .dataTables_wrapper.no-footer div {
-    border-color: #333 !important;
-    background: transparent !important;
+    /* border-color: #333 !important; */
+    /* background: transparent !important; */
 }
 
 /*=========================================================================*/
@@ -836,7 +836,7 @@ a[style="color:#006633"] {
 |----------------------------------------------------|
 ====================================================*/
 
-rect {
+rect[fill="#ffffff"] {
     fill: var(--color-dark-3) !important;
 }
 
@@ -844,7 +844,8 @@ text {
     fill: #696969 !important;
 }
 
-g rect {
+g rect[fill="#ebebeb"],
+g rect[fill="#cccccc"] {
     fill: #484848 !important;
 }
 
