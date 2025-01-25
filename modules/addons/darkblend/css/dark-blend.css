@@ -330,13 +330,9 @@ div#mergefields a:hover {
     border-color: #3c3c3c;
 }
 
-
-
 h2.balance-title {
     margin-top: 10px !important;
 }
-
-
 
 @keyframes tada {
     0% {
@@ -581,9 +577,6 @@ ul.client-tabs>li>a:hover {
     border-color: #4e4e4e #4e4e4e var(--color-dark-5) #4e4e4e !important;
 }
 
-
-
-
 /* ------- ======== ------- [( Nav Stats )] ------- ======== ------- */
 
 small.v8navstatsul {
@@ -651,7 +644,6 @@ a.orders-pending-nav {
     font-weight: 900 !important;
     color: #d0d0d0 !important;
 }
-
 
 /*===============================================================================*/
 
@@ -1022,6 +1014,10 @@ div[aria-label="A chart."] text {
     border-color: #29393e !important;
 }
 
+#ticketreplies .reply.note {
+    background: #2c2417 !important;
+}
+
 #ticketreplies .message p,
 #ticketreplies .message {
     color: #867f69 !important;
@@ -1150,8 +1146,6 @@ div.partner-logo,
     border: 1px solid #222 !important;
 }
 
-
-
 .tab-content .col-md-4 .text-center {
     background: #1b1b1b !important;
 }
@@ -1233,9 +1227,13 @@ div#all .clearfix {
 }
 
 /*.to-do-items label {*/
+
 /*    display: block;*/
+
 /*    margin: 5px 0;*/
+
 /*}*/
+
 .to-do-items i {
     /*display: none !important;*/
 }
@@ -1390,6 +1388,7 @@ polygon {
                       Buttoons                       |
 |----------------------------------------------------|
 ====================================================*/
+
 .btn {
     margin-bottom: 10px !important;
 }
@@ -1524,15 +1523,11 @@ div#modcmdbtns .btn:hover {
 
 /*=========================================================================*/
 
-
 /*==================================================================|
 |-------------------------------------------------------------------|
                   CSS rules for other modules/addons                |
 |-------------------------------------------------------------------|
 ===================================================================*/
-
-
-
 
 /*=========================================================================*/
 
@@ -1543,18 +1538,15 @@ div#modcmdbtns .btn:hover {
 ===================================================================*/
 
 :root {
-    --color-dark:   #000;
+    --color-dark: #000;
     --color-dark-2: #212121;
     --color-dark-3: #232323;
     --color-dark-4: #272727;
     --color-dark-5: #2f2f2f;
-
-    --color-gray:   #888;
+    --color-gray: #888;
     --color-gray-2: #ddd;
-
-    --color-green:  #307d48;
-    --color-green-2:#27653a;
-
-    --color-blue:   #1b4d80;
+    --color-green: #307d48;
+    --color-green-2: #27653a;
+    --color-blue: #1b4d80;
     --color-blue-2: #133e69;
 }
