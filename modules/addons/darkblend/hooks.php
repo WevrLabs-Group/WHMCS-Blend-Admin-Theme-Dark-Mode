@@ -37,7 +37,7 @@ function admin_blend_customcss_hook($vars) {
 function admin_blend_stats_hook($vars) {
 
 	$v8 = Capsule::select(Capsule::raw('SELECT value FROM tblconfiguration WHERE setting = "Version" LIMIT 1'))[0]->value;
-	if (explode('.', $v8)[0] != '8') : return false;
+	if (explode('.', $v8)[0] <= '8') : return false;
 	endif;
 	
 	$showTime		= Capsule::table('tbladdonmodules')->where('module', 'darkblend')->where('setting', 'datetime_enable')->first();
