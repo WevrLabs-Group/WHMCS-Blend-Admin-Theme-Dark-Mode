@@ -43,6 +43,13 @@ function darkblend_config()
                 'Default'      => 'yes',
                 'Description'  => 'Check this to display open tickets count in the main navbar - takes effect on WHMCS v8 only.',
             ],
+            'toggle_enable'         => [
+                'FriendlyName' => 'Display dark/light mode toggle',
+                'Type'         => 'yesno',
+                'Size'         => '55',
+                'Default'      => 'yes',
+                'Description'  => 'Check this to display dark/light mode toggle button in the main navbar - takes effect on WHMCS v8 only.',
+            ],
         ],
     ];
 }
